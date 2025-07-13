@@ -2,6 +2,48 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "groupProblem",
+      "request": "launch",
+      "mainClass": "groupProblem",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "palindromeTriangle",
+      "request": "launch",
+      "mainClass": "palindromeTriangle",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "palindrome",
+      "request": "launch",
+      "mainClass": "palindrome",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "sumOfDigits",
+      "request": "launch",
+      "mainClass": "sumOfDigits",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "linkedlist",
+      "request": "launch",
+      "mainClass": "linkedlist",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "swappedtwonumber",
+      "request": "launch",
+      "mainClass": "swappedtwonumber",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
