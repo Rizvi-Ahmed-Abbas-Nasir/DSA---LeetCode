@@ -1,20 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class groupProblem {
 
     
-    public static int[] groupFunction(int[] arr){
+    public static List<List<Integer>> groupFunction(int[] arr){
                             
+         List<List<Integer>> groups = new ArrayList<>();
+        List<Integer> currentGroup = new ArrayList<>();
+
         int sum = 0;
         int counter = 1;
-        int[] newgrp = new int[arr.length]; 
-        for(int i = 0; i <= arr.length -1; i++){
+        for(int i = 0; i <= arr.length -1 ; i++){
 
-             sum += arr[i] ;
             System.out.println("i = " + i + ", sum = " + sum);
-            if(sum <= 10 ){
-                newgrp[i] = arr[i];
+            if(sum + arr[i]<= 10 ){
+                currentGroup.add(arr[i]);
                 System.out.println("group count "+ counter);
+                  sum += arr[i] ;
             }
             else{
+                 groups.add(new ArrayList<>(currentGroup));
+                currentGroup.clear();
                 sum = 0;
                 counter++;
                 i--;
@@ -23,16 +30,22 @@ public class groupProblem {
         }
 
 
-        return newgrp;
+     if (!currentGroup.isEmpty()) {
+        groups.add(currentGroup);
+    }
+
+    return groups;
     }
 
 
     public static void main(String[] args){
         int[] arr = {3,4,5,6,3,2,8,4,7};
-       int[] grp = groupFunction(arr);
-       for( int i = 0;  i <= grp.length-1; i++){
-            System.out.println(grp[i]);
-       }
+      List<List<Integer>> grp = groupFunction(arr);
+
+        for (int i = 0; i < grp.size(); i++) {
+            System.out.println(grp.get(i));
+        }
+
     }   
 
 
