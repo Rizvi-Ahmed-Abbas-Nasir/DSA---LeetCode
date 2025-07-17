@@ -1,4 +1,4 @@
-class PrintPattern {
+class PrintPatternPalindrome {
     
     public static void PrintStars(){
         
