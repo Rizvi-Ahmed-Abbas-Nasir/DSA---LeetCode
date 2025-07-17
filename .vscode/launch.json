@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintPattern",
+      "request": "launch",
+      "mainClass": "PrintPattern",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "printPalindrome",
+      "request": "launch",
+      "mainClass": "printPalindrome",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
       "name": "groupProblem",
       "request": "launch",
       "mainClass": "groupProblem",
