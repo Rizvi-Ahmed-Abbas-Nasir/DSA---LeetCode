@@ -1,0 +1,20 @@
+import java.util.List;
+public class ArrayListProgram {
+    
+    public static void main(String[] args) {
+        
+        List<Integer> array = new java.util.ArrayList<>();
+
+        array.add(4);
+        array.add(3);
+        array.add(2);
+        array.add(4);
+        array.add(10);
+
+        System.out.println(array);
+
+        for(int n : array){
+            System.out.println(n);
+        }
+    }
+}

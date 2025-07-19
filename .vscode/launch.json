@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayListProgram",
+      "request": "launch",
+      "mainClass": "ArrayListProgram",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
+      "name": "ArrayList",
+      "request": "launch",
+      "mainClass": "ArrayList",
+      "projectName": "DSA---LeetCode_df73cba2"
+    },
+    {
+      "type": "java",
       "name": "PrintPattern",
       "request": "launch",
       "mainClass": "PrintPattern",

@@ -19,6 +19,6 @@ public class sumOfDigits {
 
         int num = sn.nextInt();
 
-        System.err.println(sumOfDigit(num));   
+        System.out.println(sumOfDigit(num));   
     }
 }
