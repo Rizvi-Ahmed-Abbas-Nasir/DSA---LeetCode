@@ -16,5 +16,7 @@ public class ArrayListProgram {
         for(int n : array){
             System.out.println(n);
         }
+
+        array.forEach(t -> System.out.println(t) );
     }
 }
