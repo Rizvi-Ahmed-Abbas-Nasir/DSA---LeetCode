@@ -18,5 +18,9 @@ public class ArrayListProgram {
         }
 
         array.forEach(t -> System.out.println(t) );
+
+        for(int i = 0; i <= array.size() -1 ; i++){
+            System.out.println(array.get(i));
+        }
     }
 }
